@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,4 @@
     "url": "https://github.com/JarrettHeller/tarrot/issues"
   },
   "homepage": "https://github.com/JarrettHeller/tarrot#readme"
-},
-"scripts": {
-    "start": "node index.js"
 }
