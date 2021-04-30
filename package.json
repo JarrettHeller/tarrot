@@ -16,4 +16,7 @@
     "url": "https://github.com/JarrettHeller/tarrot/issues"
   },
   "homepage": "https://github.com/JarrettHeller/tarrot#readme"
+},
+"scripts": {
+    "start": "node index.js"
 }
