@@ -1,0 +1,119 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CC The Clairvoyant Computer</title>
+  <link rel="stylesheet" href="C:\Users\Jarrett\Downloads\test1\testing\New folder\style.css">
+  <script src="js/index.js"></script>
+  <meta charset="UTF-8">
+  <title>Past, Present, Future Three Card Tarot Draw</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/index.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js.map"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 loginForm">
+        <div class="form_div">
+          <p class="form_label">LOGIN HERE</p>
+          <form method="post" action="">
+            <p><input type="text" placeholder="Enter Email" /></p>
+            <p><input type="password" placeholder="**********" /></p>
+            <p><button type="submit" class="glow-on-hover">Login</button></p>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6 signupForm">
+        <div class="form_div">
+          <p class="form_label">SIGNUP HERE</p>
+          <form method="post" action="">
+            <p><input type="text" placeholder="Enter Name" /></p>
+            <p><input type="text" placeholder="Enter Email" /></p>
+            <p><input type="password" placeholder="**********" /></p>
+            <p>
+              <button type="submit" class="glow-on-hover">Sign Up</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 loginForm">
+        
+              <p><button type="submit" class="glow-on-hover">Saved Readings</button></p>
+            </form>
+          </div>
+  <div class="container-flex">
+    <div class="jumbotron">
+      <h1>CC The Clairvoyant Computer</h1>
+      <br>
+      <p id="blurb" class="blurb">
+        The three card reading is one of the simplest tarot card spreads.<br /> The card to the left represents events in your past that may have led to the position you are in now. The Tarot card in the center position represents your outlook on your
+        current state of affairs. The card furthest to the right suggests a possible outcome if no action is taken to change the current course. The future is not set in stone &amp; can be changed through action.
+        <br />
+        <br /> Please focus on your question &amp; click the &quot;My Reading&quot; button below when you are ready.
+      </p>
+      <div class="container-flex">
+        <div class="row">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-3"><button type="button" class="btn btn-primary btn-lg" id="pastPresentFuture" onclick="pastPresentFuture()">My Reading</button></div>
+          <div class="col-md-3">
+            <p>Percentage of Reversals</p>
+            <input class="slider" type="range" min="0" max="50" value="0" onchange="showValue(this.value)" />
+            <span id="range">0</span>%
+          </div>
+          <div class="col-md-3">
+          </div>
+        </div>
+      </div>
+
+      <div class="container-flex">
+        <div class="row">
+          <div class="col-md-4">
+         
+              <hr>
+              <h2>Past</h2>
+              <div id="img-1"></div>
+              <div id="info-1"></div>
+       
+          </div>
+          <div class="col-sm-4">
+   
+              <hr>
+              <h2>Present</h2>
+              <div id="img-2"></div>
+              <div id="info-2"></div>
+    
+          </div>
+          <div class="col-sm-4">
+       
+              <hr>
+              <h2>Future</h2>
+              <div id="img-3"></div>
+              <div id="info-3"></div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
